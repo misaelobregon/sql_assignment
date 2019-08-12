@@ -72,7 +72,7 @@ JOIN dept_emp AS d
 ON e.emp_no = d.emp_no
 JOIN departments AS t
 ON t.dept_no = d.dept_no
-WHERE t.dept_name:: TEXT LIKE 'Sales' OR t.dept_name:: TEXT LIKE 'Development' AND t.dept_name:: TEXT LIKE 'Development';
+WHERE t.dept_name:: TEXT LIKE 'Sales' OR t.dept_name:: TEXT LIKE 'Development';
 
 
 -- 8. In descending order, list the frequency count of employee 
